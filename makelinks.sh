@@ -4,7 +4,7 @@
 
 dir=~/dotfiles
 olddir=~/dotfiles_old
-files="vimrc"
+files="bashrc vimrc gitconfig i3status.conf"
 
 mkdir -p $olddir
 
