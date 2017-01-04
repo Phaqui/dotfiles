@@ -40,5 +40,11 @@
 
 # 6) Either download full source of all projects, or use my own server to host them via git... hmmm
 
+# Other things:
+# Need to figure out where to set
+# xset r rate 190 60
+# (to set the keyboard repeat to 190 ms delay before it starts, and 60 ms in between each new key (I think that's right,
+#  but the manual says it's "number of repetitions per second, which cannot be correct as of my testing... )
+
 # .. Could be an idea to reboot in between some steps, I don't know...
 
