@@ -14,6 +14,7 @@
 # 1) Upgrade to sid
 # - check that /etc/sources.list is set correctly.
 # - apt-get update && apt-get upgrade
+# [Maybe just a reboot.. not sure if strictly necessary]
 
 # *: Skip step 2 and 3 if not running a virtual machine...(If done by a script, how to check if this is a virtual machine..?)
 # 2) Install dependencies for virtualbox linux additions (are these everything?)
@@ -24,6 +25,7 @@
 # 3.1) From Host OS: Insert VirtualBox additions "cd"..
 # 3.2) mount /dev/cdrom /media/cdrom && cd /media/cdrom
 # 3.3) sudo the linux script.. Naturally troubleshoot on errors, if there are any..
+# [Maybe a reboot, just to make sure, you know..]
 
 # 4) Install desired software
 # 4.1) GUI: X with i3wm
@@ -32,7 +34,8 @@
 #### Personal below
 
 # 5) Download and apply dotfiles (from github)
-# 5.1) __ Make sure to make sym links etc ___ -> dotfiles/makesymlinks.sh
+# 5.1) git clone repo .... maybe into ~/dotfiles
+# 5.1) make symlinks to all dotfiles with: dotfiles/makesymlinks.sh
 
 # 6) Either download full source of all projects, or use my own server to host them via git... hmmm
 
