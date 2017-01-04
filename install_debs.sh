@@ -29,7 +29,8 @@
 
 # 4) Install desired software
 # 4.1) GUI: X with i3wm
-# 4.2) vim, git, python3, stterm (from repo or tarfile?), ...
+# 4.2) vim, git, firefox|chromium-browser, python3, stterm (from repo or tarfile?), ...
+# 4.3) xclip, imagemagick (for screenshots with `import`?)
 
 #### Personal below
 
